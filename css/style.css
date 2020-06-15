@@ -1,0 +1,45 @@
+.foto-perfil{
+height: 100%;
+width: auto;
+max-width: 100%;
+border-radius: 50%;
+}
+
+.corUm{
+    background-color: black !important;
+}
+
+.corDois{
+    background-color: rgb(36, 36, 36);
+}
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+color:black;
+}
+
+.icones{
+    padding-left: 5px;
+}
+
+.titulosBranco{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.github-text{
+    color: white;
+    font-size:xx-large;
+}
+
+.footer{
+    padding-left: 30px;
+}
+
+.footer p{
+    color: white;
+}
