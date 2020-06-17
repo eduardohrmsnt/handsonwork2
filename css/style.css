@@ -23,12 +23,22 @@ color:black;
 }
 
 .titulosBranco{
-    text-decoration: underline;
-    text-underline-position: below;
     padding-bottom: 20px;
-    text-transform: uppercase;
     font-weight: 700;
-    color: black;
+    color: rgb(54, 112, 129);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link{
+    color: rgb(61, 158, 153) !important;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color:  rgb(54, 112, 129) !important;
+}
+
+.btn-dark:hover{
+    color:  rgb(54, 112, 129) !important;
 }
 
 .github-text{
@@ -36,10 +46,16 @@ color:black;
     font-size:xx-large;
 }
 
+
+
 .footer{
     padding-left: 30px;
 }
 
 .footer p{
     color: white;
+}
+
+.sobre {
+    min-height: 10cm;
 }

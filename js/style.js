@@ -1,15 +1,15 @@
-$fade = function(){
-    var document = $(document),
-    fadeElem = $('.fade-scroll')
+$(function(){
+    var documentEl = $(document),
+    fadeElem = $('.fade-scroll');
 
-    document.on('scroll', function(){
-        var currScrollPos = document.scrollTop();
+    documentEl.on('scroll', function(){
+        var currScrollPos = documentEl.scrollTop();
 
-        fadeElem.foreach(function(){
+        fadeElem.each(function(){
             var $this = $(this),
-                elemOffsetTop = $this.offset().top();
-                if(currScrollPos > elemOffsetTop) $this.css('opacity',1 - (currScrollPos-elemOffsetTop)/400);
-        })
-    })
+                elemOffsetTop = $this.offset().top;
+                if(currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/400);
+        });
+    });
 
-}
+});
