@@ -31,8 +31,8 @@
 <body>
     <script src="js/all.js" ></script>
     <script src="js/style.js"></script>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fade-scroll">
+<div class="fundo">
+    <nav class="navbar navbar-expand-lg fade-scroll">
         <a class="navbar-brand" href="#">Eduardo Hermes Neto</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,10 +57,10 @@
             </div>
         </div>
     </nav>
-    <section class="fade-scroll corUm text-center">
+    <section class="fade-scroll text-center">
         <div class="container">
             <div class="container">
-                <img class="foto-perfil" src="imagens/imagem_perfil.jpg">
+                <img class="foto-perfil" src="imagens/imagem_perfil.jpeg">
             </div>
             <h1 class="jumbotron-heading"style="color: white !important">Eduardo Hermes Neto</h1>
             <p class="lead text-muted" style="color: white !important">Software developer.</p>
@@ -70,62 +70,41 @@
             </p>
         </div>
     </section>
-    <div class="album py-5  bg-dark fade-scroll" id="Projetos">
+</div>
+    <div class="album py-5 fade-scroll" id="Projetos">
         <div class="container">
             <h2 class="jumbotron-heading text-center titulosBranco">PROJETOS</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4  shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="imagens/Dodo.PNG" data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="card-text">Projeto sobre animais em extinção.</p>
-                            <ul>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://eduardohrmsnt.github.io/AulaFlex/Dodo">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Ver
-                                            Projeto</button>
-                                    </a>
-                                    <a href="https://github.com/eduardohrmsnt/AulaFlex">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row" style="align-content: center;">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/csharp.png" alt="csharp">
+                    <div class="card-body">
+                      <h5 class="card-title">C#</h5>
+                      <div class="card-div">
+                      <p class="card-text">Projeto em MVC de um controle de vendas na linguagem C#.</p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4  shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" src="imagens/HermesBaixos.PNG" data-holder-rendered="true"
-                            style="height: 225px; width: 100%; display: block;">
-                        <div class="card-body">
-                            <p class="card-text">Site de instrumentos.</p>
-                            <ul class="left">
-                                <li>CSS</li>
-                                <li>HTML</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://eduardohrmsnt.github.io/instrumento_baixo/">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Ver
-                                            Projeto</button>
-                                    </a>
-                                    <a href="https://github.com/eduardohrmsnt/instrumento_baixo">
-                                        <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                      <a href="#" class="btn btn-primary">GitHub</a>
                     </div>
-                </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/html.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML/CSS</h5>
+                      <div class="card-div">
+                      <p class="card-text">Projeto frontend em CSS e HTML de uma loja ficticia de baixos.</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">GitHub</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/javascript.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Javascript</h5>
+                      <div class="card-div">
+                        <p class="card-text">Atividade na linguagem Javascript com atributos.</p>
+                      </div>
+                      <a href="#" class="btn btn-primary">GitHub</a>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
@@ -135,7 +114,8 @@
             <p>
                 <br><br>
                 Sou analista de sistemas, atuando na área de tecnologia desde junho de 2019.
-                Tenho experiências no backend com Uniface, C# e frontend em HTML, CSS, Javascript.
+                Tenho experiências no backend com C# e PHP e no frontend em HTML, CSS, Javascript. Também trabalho com 
+                desenvolvimento desktop na linguagem Uniface.
                 <br><br>
                 Curso Analise e Desenvolvimento de Sistemas na Universidade do Vale do Itajai há um ano,
                 trabalho atualmente na empresa Rovitex como desenvolvedor web e desktop.

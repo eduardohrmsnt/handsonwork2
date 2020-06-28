@@ -4,9 +4,30 @@ width: 30%;
 margin-top: 2cm;
 max-width: 100%;
 border-radius: 100%;
-border-color:white;
-border: 6px solid;
 color:black;
+}
+.card{
+    background-color: black !important;
+    padding-left: 100px;
+}
+.card-div{
+    padding-bottom: 30px;
+}
+
+.card-text{
+    text-align: none !important;
+}
+.card h5{
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.card p{
+    color:white;
+}
+.btn{
+    color: white;
 }
 p{
     margin:0 !important;
@@ -16,7 +37,25 @@ p{
 }
 
 body{
-    background-color: #343a40 !important;
+    background-color: black !important;
+}
+
+.fundo{
+    position:relative;
+    height: 550px;
+    
+}
+.fundo::before{
+    content:'';
+    position: absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    background-image: url(../imagens/fundo.jpg);
+    background-position: relative;
+    opacity: 0.5;
+    -webkit-filter: blur(1px);
 }
 
 .corUm{
@@ -26,7 +65,7 @@ body{
 }
 
 .corDois{
-    background-color: rgb(36, 36, 36);
+    background-color: black;
 }
 
 p{
@@ -46,20 +85,33 @@ color:black;
 }
 
 .nav-link{
-    color: rgb(61, 158, 153) !important;
+    color: white;
     font-weight: 700;
 }
 .nav-link:hover{
-    color:  rgb(54, 112, 129) !important;
+    color:  rgb(179, 152, 5);
 }
 
 .btn-dark:hover{
-    color:  rgb(54, 112, 129) !important;
+    background-color: rgb(2, 92, 2) !important;
 }
+
+.btn-dark{
+    background-color: rgb(3, 180, 3) !important;
+ }
 
 .github-text{
     color: white;
     font-size:xx-large;
+}
+
+.btn-primary{
+    background-color: grey !important;
+    border-color:white !important;
+}
+
+.navbar a{
+    color: white !important;
 }
 
 
